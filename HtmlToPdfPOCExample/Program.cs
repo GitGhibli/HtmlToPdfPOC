@@ -1,6 +1,6 @@
 ﻿using DinkToPdf;
 
-namespace DinkToPdf
+namespace DinkToPdfExample
 {
     class Program
     {
@@ -13,13 +13,13 @@ namespace DinkToPdf
                     ColorMode = ColorMode.Color,
                     Orientation = Orientation.Landscape,
                     PaperSize = PaperKind.A4Plus,
-                    Out = @"D:\Temp\Yarmill.pdf",
+                    Out = @"D:\Temp\DinkToPdf.pdf",
                 },
                 Objects = {
                     new ObjectSettings()
                     {
                         Page = "https://www.whatsmybrowser.org/"
-                        // Page = "https://ywa-740-browser-check--friendly-hermann-eceb82.netlify.app/plan/week?group=93&week=2020-09-29&avoidBrowserCheck=1",
+                        //Page = "https://ywa-740-browser-check--friendly-hermann-eceb82.netlify.app/plan/week?group=93&week=2020-09-29&avoidBrowserCheck=1",
                     }
                 }
             };
